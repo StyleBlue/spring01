@@ -21,6 +21,7 @@ public class QLogin extends EntityPathBase<Login> {
 
     public final NumberPath<Long> memberId = createNumber("memberId", Long.class);
 
+
     public final StringPath password = createString("password");
 
     public final StringPath userId = createString("userId");

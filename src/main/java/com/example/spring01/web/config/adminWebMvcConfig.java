@@ -15,5 +15,7 @@ public class adminWebMvcConfig implements WebMvcConfigurer {
     	WebMvcConfigurer.super.addInterceptors(registry);
     	registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**");
     }
+    
+    
         
 }

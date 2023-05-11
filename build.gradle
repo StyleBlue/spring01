@@ -47,7 +47,7 @@ tasks.named('test') {
 }
 
 // Gradle 5.0 이상
-def querydslDir = "$buildDir/generated/querydsl"
+def querydslDir = "src/main/generated/querydsl"
 //def querydslDir = "src/main/generated"
 querydsl {
     jpa = true
